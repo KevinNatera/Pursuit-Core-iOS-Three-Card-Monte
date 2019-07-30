@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC0DA3B22EF82EE00A0E5D8 /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0DA3A22EF82EE00A0E5D8 /* cardBack.png */; };
-		0BC0DA3D22EF82F400A0E5D8 /* cardJoker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0DA3C22EF82F400A0E5D8 /* cardJoker.jpg */; };
-		0BC0DA3F22EF82F800A0E5D8 /* cardAce.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC0DA3E22EF82F800A0E5D8 /* cardAce.png */; };
+		0B8FFE2822F0A02D004AC171 /* cardAce.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8FFE2722F0A02D004AC171 /* cardAce.png */; };
+		0B8FFE2A22F0A032004AC171 /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8FFE2922F0A032004AC171 /* cardBack.png */; };
+		0B8FFE2C22F0A036004AC171 /* cardJoker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B8FFE2B22F0A036004AC171 /* cardJoker.jpg */; };
 		573B72F121914AF300601A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B72F021914AF300601A4F /* AppDelegate.swift */; };
 		573B72F321914AF300601A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B72F221914AF300601A4F /* ViewController.swift */; };
 		573B72F621914AF300601A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573B72F421914AF300601A4F /* Main.storyboard */; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BC0DA3A22EF82EE00A0E5D8 /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardBack.png; path = ../../../../cardBack.png; sourceTree = "<group>"; };
-		0BC0DA3C22EF82F400A0E5D8 /* cardJoker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cardJoker.jpg; path = ../../../../cardJoker.jpg; sourceTree = "<group>"; };
-		0BC0DA3E22EF82F800A0E5D8 /* cardAce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardAce.png; path = ../../../../cardAce.png; sourceTree = "<group>"; };
+		0B8FFE2722F0A02D004AC171 /* cardAce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardAce.png; path = ../../Pictures/cardAce.png; sourceTree = "<group>"; };
+		0B8FFE2922F0A032004AC171 /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardBack.png; path = ../../Pictures/cardBack.png; sourceTree = "<group>"; };
+		0B8FFE2B22F0A036004AC171 /* cardJoker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cardJoker.jpg; path = ../../Pictures/cardJoker.jpg; sourceTree = "<group>"; };
 		573B72ED21914AF300601A4F /* ThreeCardMonte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeCardMonte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573B72F021914AF300601A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		573B72F221914AF300601A4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,9 +66,9 @@
 				573B72F721914AF500601A4F /* Assets.xcassets */,
 				573B72F921914AF500601A4F /* LaunchScreen.storyboard */,
 				573B72FC21914AF500601A4F /* Info.plist */,
-				0BC0DA3A22EF82EE00A0E5D8 /* cardBack.png */,
-				0BC0DA3C22EF82F400A0E5D8 /* cardJoker.jpg */,
-				0BC0DA3E22EF82F800A0E5D8 /* cardAce.png */,
+				0B8FFE2722F0A02D004AC171 /* cardAce.png */,
+				0B8FFE2922F0A032004AC171 /* cardBack.png */,
+				0B8FFE2B22F0A036004AC171 /* cardJoker.jpg */,
 			);
 			path = ThreeCardMonte;
 			sourceTree = "<group>";
@@ -132,11 +132,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				573B72FB21914AF500601A4F /* LaunchScreen.storyboard in Resources */,
+				0B8FFE2822F0A02D004AC171 /* cardAce.png in Resources */,
 				573B72F821914AF500601A4F /* Assets.xcassets in Resources */,
-				0BC0DA3B22EF82EE00A0E5D8 /* cardBack.png in Resources */,
-				0BC0DA3D22EF82F400A0E5D8 /* cardJoker.jpg in Resources */,
 				573B72F621914AF300601A4F /* Main.storyboard in Resources */,
-				0BC0DA3F22EF82F800A0E5D8 /* cardAce.png in Resources */,
+				0B8FFE2A22F0A032004AC171 /* cardBack.png in Resources */,
+				0B8FFE2C22F0A036004AC171 /* cardJoker.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

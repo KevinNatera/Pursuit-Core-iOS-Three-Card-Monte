@@ -66,7 +66,7 @@ class ViewController: UIViewController {
             
         } else if self.Card3Outlet.tag == 1 {
             self.Card1Outlet.setImage(#imageLiteral(resourceName: "cardJoker.jpg"), for: UIControl.State.normal)
-            self.Card3Outlet.setImage( #imageLiteral(resourceName: "cardAce.png"), for: UIControl.State.normal)
+            self.Card3Outlet.setImage(#imageLiteral(resourceName: "cardAce.png") , for: UIControl.State.normal)
             self.LabelText.text = "Sorry, you lose! Play again?"
             
             Card1Outlet.isEnabled = false
